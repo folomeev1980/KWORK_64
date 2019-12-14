@@ -1,0 +1,137 @@
+This is up
+
+Show
+  Class "Divination Card"
+  BaseType "The Doctor"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Succor of the Sinless"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Damned"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Nook's Crown"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Alluring Bounty"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Pride of the First Ones"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Hunter's Reward"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The World Eater"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Nurse"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+BaseType "Fated Connections"
+Show
+BaseType "Crimson Jewel"
+Show
+BaseType "Viridian Jewel"
+Show
+BaseType "Death Bow"
+Show
+BaseType "Jewelled Foil"
+Show
+BaseType "Ezomyte Staff"
+Show
+BaseType "Long Bow"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Royal Bow"
+Show
+BaseType "Imperial Bow"
+Show
+BaseType "Highborn Staff"
+Show
+BaseType "Fiend Dagger"
+Show
+BaseType "Ezomyte Staff"
+Show
+BaseType "Siege Axe"
+Show
+BaseType "Death Bow"
+Show
+BaseType "Spine Bow"
+Show
+BaseType "Sadist Garb"
+Show
+BaseType "Zodiac Leather"
+Show
+BaseType "Rawhide Boots"
+Show
+BaseType "Glorious Plate"
+Show
+BaseType "Hydrascale Gauntlets"
+Show
+BaseType "Simple Robe"
+Show
+BaseType "Occultist's Vestment"
+Show
+BaseType "Deerskin Gloves"
+Show
+BaseType "Coral Amulet"
+Show
+BaseType "Amber Amulet"
+
+This is down

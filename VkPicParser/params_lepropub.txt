@@ -1,0 +1,11 @@
+{"group_id_list": [51983002, 63012929, 157290407, 42779558, 167062998, 171154488, 171719327, 158004202, 20865272, 39269721],
+"date_start":(2019, 10,1),
+"date_end":(2019, 10, 2),
+"comments":0,
+"likes" : 5,
+"ads":0,
+"token_post":"eebfd9a37e9a8bea618aaf72d55a2c9487e3eacc6d3efb0a71c2d277c2879c0562b9ec67c85e203f74114",
+"token_parser":"ccce76a4ccce76a4ccce76a439cca03b73cccceccce76a4912cf8eb4c573deada8dc18c",
+
+"min_shift":37,
+"owner_id":55442956}

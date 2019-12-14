@@ -1,0 +1,82 @@
+{
+"text_":"This is up\n",
+"text__":"\nThis is down",
+"price":50.0,
+"list_":["Essence","DivinationCard","BaseType","Prophecy","HelmetEnchant","UniqueJewel","UniqueFlask","UniqueWeapon","UniqueArmour","UniqueAccessory"],
+"dic":{
+"Essence":"\
+Show\n\
+  Class \"Currency\"\n\
+  BaseType \"{}\"\n\
+  SetTextColor 30 188 255\n\
+  SetBackgroundColor 55 76 84 215\n\
+  SetBorderColor 30 188 255 194\n\
+  SetFontSize 35\n\
+  PlayAlertSound 3 150\n\
+  MinimapIcon 2 Blue Circle\n\
+  PlayEffect Blue Temp",\
+
+
+"DivinationCard":"\
+Show\n\
+  Class \"Divination Card\"\n\
+  BaseType \"{}\"\n\
+  SetTextColor 0 255 0\n\
+  SetBorderColor 0 255 0\n\
+  PlayAlertSound 7 270\n\
+  SetFontSize 50\n\
+  PlayEffect Green\n\
+  MinimapIcon 1 Green Circle",\
+
+
+
+"BaseType":"\
+Show\n\
+  ItemLevel >= {}\n\
+  BaseType \"{}\"\n\
+  {}Item True\n\
+  SetTextColor 0 0 0\n\
+  SetBackgroundColor 181 164 74 170\n\
+  SetBorderColor 0 0 0\n\
+  SetFontSize 25",
+
+
+
+"Prophecy":"\
+Show\n\
+BaseType \"{}\"",
+
+
+"HelmetEnchant":"\
+Show\n\
+BaseType \"{}\"",
+
+
+
+
+
+
+"UniqueJewel":"\
+Show\n\
+BaseType \"{}\"",
+
+"UniqueFlask":"\
+Show\n\
+BaseType \"{}\"",
+
+"UniqueWeapon":"\
+Show\n\
+BaseType \"{}\"",
+
+"UniqueArmour":"\
+Show\n\
+BaseType \"{}\"",
+
+"UniqueAccessory":"\
+Show\n\
+BaseType \"{}\""
+
+
+
+}
+}
