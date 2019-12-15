@@ -2,7 +2,43 @@ This is up
 
 Show
   Class "Divination Card"
+  BaseType "House of Mirrors"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Demon"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
   BaseType "The Doctor"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Fiend"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Beauty Through Death"
   SetTextColor 0 255 0
   SetBorderColor 0 255 0
   PlayAlertSound 7 270
@@ -20,24 +56,6 @@ Show
   MinimapIcon 1 Green Circle
 Show
   Class "Divination Card"
-  BaseType "The Damned"
-  SetTextColor 0 255 0
-  SetBorderColor 0 255 0
-  PlayAlertSound 7 270
-  SetFontSize 50
-  PlayEffect Green
-  MinimapIcon 1 Green Circle
-Show
-  Class "Divination Card"
-  BaseType "Nook's Crown"
-  SetTextColor 0 255 0
-  SetBorderColor 0 255 0
-  PlayAlertSound 7 270
-  SetFontSize 50
-  PlayEffect Green
-  MinimapIcon 1 Green Circle
-Show
-  Class "Divination Card"
   BaseType "Alluring Bounty"
   SetTextColor 0 255 0
   SetBorderColor 0 255 0
@@ -47,7 +65,7 @@ Show
   MinimapIcon 1 Green Circle
 Show
   Class "Divination Card"
-  BaseType "Pride of the First Ones"
+  BaseType "The Spark and the Flame"
   SetTextColor 0 255 0
   SetBorderColor 0 255 0
   PlayAlertSound 7 270
@@ -56,16 +74,7 @@ Show
   MinimapIcon 1 Green Circle
 Show
   Class "Divination Card"
-  BaseType "Hunter's Reward"
-  SetTextColor 0 255 0
-  SetBorderColor 0 255 0
-  PlayAlertSound 7 270
-  SetFontSize 50
-  PlayEffect Green
-  MinimapIcon 1 Green Circle
-Show
-  Class "Divination Card"
-  BaseType "The World Eater"
+  BaseType "Immortal Resolve"
   SetTextColor 0 255 0
   SetBorderColor 0 255 0
   PlayAlertSound 7 270
@@ -82,56 +91,273 @@ Show
   PlayEffect Green
   MinimapIcon 1 Green Circle
 Show
+  Class "Divination Card"
+  BaseType "Pride of the First Ones"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+BaseType "The Queen's Sacrifice"
+Show
 BaseType "Fated Connections"
+Show
+BaseType "The Bowstring's Music"
+Show
+BaseType "Darktongue's Shriek"
+Show
+BaseType "A Dishonourable Death"
+Show
+BaseType "Arc Chains an additional time"
+Show
+BaseType "Volatile Dead Consumes up to 1 additional corpse"
+Show
+BaseType "Tornado Shot fires an additional secondary Projectile"
+Show
+BaseType "Blood Rage grants additional 12% increased Attack Speed"
+Show
+BaseType "Ice Shot has 60% increased Area of Effect angle"
+Show
+BaseType "40% increased Barrage Damage"
+Show
+BaseType "Barrage fires an additional Projectile"
+Show
+BaseType "15% of Burning Arrow Physical Damage gained as Extra Fire Damage"
+Show
+BaseType "Blade Vortex has +3% to Critical Strike Multiplier for each blade"
+Show
+BaseType "Pyroclast Mine fires 2 additional Projectiles"
+Show
+BaseType "Icicle Mine deals 40% increased Damage"
+Show
+BaseType "Blast Rain fires an additional Arrow"
+Show
+BaseType "Toxic Rain fires 1 additional Arrow"
+Show
+BaseType "Summoned Agony Crawler fires 2 additional Projectiles"
+Show
+BaseType "Artillery Ballista fires 2 additional Arrows"
+Show
+BaseType "30% increased Blade Vortex Duration"
+Show
+BaseType "Split Arrow fires 3 additional Projectiles"
+Show
+BaseType "Spectres have 40% increased Damage"
+Show
+BaseType "Explosive Arrow deals 40% increased Damage"
+Show
+BaseType "Winter Orb has +2 Maximum Stages"
 Show
 BaseType "Crimson Jewel"
 Show
+BaseType "Cobalt Jewel"
+Show
 BaseType "Viridian Jewel"
 Show
-BaseType "Death Bow"
+BaseType "Viridian Jewel"
 Show
-BaseType "Jewelled Foil"
+BaseType "Viridian Jewel"
 Show
-BaseType "Ezomyte Staff"
+BaseType "Prismatic Jewel"
 Show
-BaseType "Long Bow"
+BaseType "Crimson Jewel"
 Show
-BaseType "Infernal Sword"
+BaseType "Silver Flask"
 Show
-BaseType "Royal Bow"
+BaseType "Sulphur Flask"
+Show
+BaseType "Prophecy Wand"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Imperial Staff"
+Show
+BaseType "Spine Bow"
 Show
 BaseType "Imperial Bow"
 Show
-BaseType "Highborn Staff"
-Show
-BaseType "Fiend Dagger"
-Show
-BaseType "Ezomyte Staff"
-Show
-BaseType "Siege Axe"
+BaseType "Royal Sceptre"
 Show
 BaseType "Death Bow"
 Show
+BaseType "Military Staff"
+Show
+BaseType "Imperial Bow"
+Show
+BaseType "Jewelled Foil"
+Show
+BaseType "Serpentine Staff"
+Show
+BaseType "Primordial Staff"
+Show
+BaseType "Ornate Sword"
+Show
+BaseType "Short Bow"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Despot Axe"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Fiend Dagger"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Death Bow"
+Show
+BaseType "Tornado Wand"
+Show
+BaseType "Siege Axe"
+Show
+BaseType "Lathi"
+Show
+BaseType "Judgement Staff"
+Show
+BaseType "Death Bow"
+Show
+BaseType "Ezomyte Staff"
+Show
+BaseType "Imperial Skean"
+Show
+BaseType "Vaal Axe"
+Show
+BaseType "Imperial Staff"
+Show
+BaseType "Long Bow"
+Show
+BaseType "Reaver Sword"
+Show
+BaseType "Highborn Staff"
+Show
+BaseType "Nightmare Mace"
+Show
+BaseType "Eternal Sword"
+Show
+BaseType "Vile Staff"
+Show
+BaseType "Imperial Bow"
+Show
+BaseType "Imperial Staff"
+Show
+BaseType "Ranger Bow"
+Show
+BaseType "Tiger Sword"
+Show
+BaseType "Blood Sceptre"
+Show
+BaseType "Maelström Staff"
+Show
+BaseType "Charan's Sword"
+Show
 BaseType "Spine Bow"
+Show
+BaseType "Imperial Bow"
+Show
+BaseType "Crude Bow"
+Show
+BaseType "Occultist's Vestment"
+Show
+BaseType "Ornate Quiver"
+Show
+BaseType "Spidersilk Robe"
+Show
+BaseType "Triumphant Lamellar"
+Show
+BaseType "Destiny Leather"
+Show
+BaseType "Two-Point Arrow Quiver"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Sentinel Jacket"
+Show
+BaseType "Carnal Armour"
+Show
+BaseType "Vaal Gauntlets"
+Show
+BaseType "Saint's Hauberk"
+Show
+BaseType "Necromancer Circlet"
+Show
+BaseType "Occultist's Vestment"
 Show
 BaseType "Sadist Garb"
 Show
 BaseType "Zodiac Leather"
 Show
-BaseType "Rawhide Boots"
+BaseType "Silk Gloves"
 Show
-BaseType "Glorious Plate"
+BaseType "Carnal Armour"
 Show
-BaseType "Hydrascale Gauntlets"
-Show
-BaseType "Simple Robe"
+BaseType "Zodiac Leather"
 Show
 BaseType "Occultist's Vestment"
 Show
-BaseType "Deerskin Gloves"
+BaseType "Steelscale Gauntlets"
+Show
+BaseType "Jingling Spirit Shield"
+Show
+BaseType "Ezomyte Tower Shield"
+Show
+BaseType "Vaal Mask"
+Show
+BaseType "Glorious Plate"
+Show
+BaseType "Elegant Ringmail"
+Show
+BaseType "Buckskin Tunic"
+Show
+BaseType "Assassin's Mitts"
+Show
+BaseType "Crusader Boots"
+Show
+BaseType "Varnished Coat"
+Show
+BaseType "Sharktooth Arrow Quiver"
+Show
+BaseType "Shagreen Gloves"
+Show
+BaseType "Simple Robe"
+Show
+BaseType "Rawhide Boots"
+Show
+BaseType "Simple Robe"
+Show
+BaseType "Murder Boots"
+Show
+BaseType "Jade Amulet"
+Show
+BaseType "Onyx Amulet"
+Show
+BaseType "Jade Amulet"
+Show
+BaseType "Jade Amulet"
+Show
+BaseType "Amber Amulet"
+Show
+BaseType "Prismatic Ring"
+Show
+BaseType "Onyx Amulet"
+Show
+BaseType "Leather Belt"
+Show
+BaseType "Two-Stone Ring"
+Show
+BaseType "Amber Amulet"
 Show
 BaseType "Coral Amulet"
 Show
-BaseType "Amber Amulet"
+BaseType "Ruby Ring"
+Show
+BaseType "Sapphire Ring"
+Show
+BaseType "Amethyst Ring"
+Show
+BaseType "Opal Ring"
+Show
+BaseType "Iron Ring"
 
 This is down
