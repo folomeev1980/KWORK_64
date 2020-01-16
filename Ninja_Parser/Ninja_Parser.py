@@ -13,6 +13,7 @@ def make_url(lst):
 
 def get_json(url):
     r=requests.get(url,timeout=10)
+    #print("######",r.text,"********")
     return r.json()
 
 def get_names(jsn,price=1.0):
@@ -128,10 +129,13 @@ def main():
 
 
     a=make_url(list_)
+    #print(a)
     list_for_write=[]
     for i in a:
+        #print(i)
         if i[0]!="BaseType":
             if i[0] in ["UniqueJewel","UniqueFlask","UniqueWeapon","UniqueArmour","UniqueAccessory"]:
+
                 names1 = get_names(get_json(i[1]), price)
                 for j in names1:
                     list_for_write.append(dic[i[0]].format(j[1]))

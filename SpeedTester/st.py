@@ -30,6 +30,7 @@ while True:
             " ")
         tm = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         driver.close()
+        driver.quit()
         #print(upload, download)
 
         with open('speed_test_home_new.csv', mode='a') as speed_test:
@@ -44,5 +45,6 @@ while True:
             print(row)
             speed_test.writerow(row)
         driver.close()
+        driver.quit()
     finally:
         time.sleep(300)
