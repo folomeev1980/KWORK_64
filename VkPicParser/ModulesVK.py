@@ -120,11 +120,11 @@ def take_time(token, owner_id):
 
         with open('log.txt', "a") as file:
 
-            file.write("{}    Time last post is {}\n".format(str(datetime.datetime.now())[0:16],
+            file.write("{}    Time last post is _____ {}\n".format(str(datetime.datetime.now())[0:16],
                                                              str(datetime.datetime.fromtimestamp(time_))))
 
         start_shifttime = int(time_)
-
+        #print(start_shifttime)
         return start_shifttime
 
     except Exception as e:
@@ -331,24 +331,33 @@ def poster(token, owner_id, path_folder, time_of_post, format_, captcha_sid_, ca
 
     message = take_name_from_excel("VK_list.xlsx", file_name)
     message = message.strip()
-    # print(message,file_name)
+    #print(message,file_name)
 
     pic_path = path_folder + file_name
 
     try:
 
         session = vk.AuthSession(access_token=token)
+
         vk_api = vk.API(session)
-        result = vk_api.docs.getWallUploadServer(v=5.102)['upload_url']
+        result = vk_api.docs.getWallUploadServer(v=5.103)['upload_url']
 
         #img = {'file': (pic_path, open(r'' + pic_path, 'rb'))}
 
         upload_url = result
+
         with open(r'' + pic_path, 'rb') as f:
             img = {'file': (pic_path, f)}
+            print(upload_url,img)
+
+            # response = requests.post(upload_url, files=img)
+            # print(response.text)
+
+
             with requests.post(upload_url, files=img) as r:
-            #response = requests.post(upload_url, files=img)
+            #
                 result = json.loads(r.text)
+                print(r.text)
 
 
 
@@ -375,6 +384,7 @@ def poster(token, owner_id, path_folder, time_of_post, format_, captcha_sid_, ca
 
         return (upload, pic_path, message)
     except Exception as error:
+
         return (None, pic_path, error)
     # finally:
     #

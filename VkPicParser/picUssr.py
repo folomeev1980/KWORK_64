@@ -44,6 +44,7 @@ def vk_post(
 ):
 
     time_zero = take_time(token_post, owner_id)
+    # print("QQQ",time_zero)
 
     if time_zero == None:
         print("\nServer don't response")
@@ -70,7 +71,7 @@ def vk_post(
                 captcha_sid_,
                 captcha_key_,
             )
-
+            #print(poster_result)
             if poster_result[0] != None:
                 number_of_posts = get_posts_number(token_post, owner_id)
                 print(
