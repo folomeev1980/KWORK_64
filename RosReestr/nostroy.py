@@ -17,9 +17,22 @@ count=Count()
 
 
 
-def writer_csv(dic):
+def writer_csv_include(dic):
     try:
-        with open("true_sro.csv", "a", newline='') as f:
+        with open("include_nostroy.csv", "a", newline='') as f:
+            writer = csv.writer(f, delimiter=';')
+            if len(dic) == 7:
+                writer.writerow(tuple(dic))
+
+            else:
+                print("csv len false")
+    except Exception as e:
+        print(str(e))
+
+
+def writer_csv_exclude(dic):
+    try:
+        with open("exclude_nostroy.csv", "a", newline='') as f:
             writer = csv.writer(f, delimiter=';')
             if len(dic) == 7:
                 writer.writerow(tuple(dic))
@@ -99,7 +112,7 @@ def main():
     n = input("Является членом СРO - 0\nИсключен - 1\n")
 
     if n == "0":
-        for index,j in enumerate(range(3001,6553)):#link = 'http://reestr.nostroy.ru/reestr/clients/152/members/389651'
+        for index,j in enumerate(range(1,6555)):#link = 'http://reestr.nostroy.ru/reestr/clients/152/members/389651'
 
             list_of_links = []
             url = "http://reestr.nostroy.ru/reestr?m_fulldescription=&m_shortdescription=&m_inn=&m_ogrnip=&bms_id=1&bmt_id=&u_registrationnumber=&sort=m.id&direction=asc&page={}".format(j)
@@ -111,10 +124,28 @@ def main():
 
             for link in list_of_links:
                 html = get_html_(link)
-                writer_csv(get_info(html))
+                writer_csv_include(get_info(html))
 
 
             print(index+1)
+    else:
+
+        for index, j in enumerate(
+                range(1, 9361)):  # link = 'http://reestr.nostroy.ru/reestr/clients/152/members/389651'
+
+            list_of_links = []
+            url = "http://reestr.nostroy.ru/reestr?m_fulldescription=&m_shortdescription=&m_inn=&m_ogrnip=&bms_id=2&bmt_id=&u_registrationnumber=&sort=m.id&direction=asc&page={}".format(j)
+
+            html = get_html_(url)
+            list_of_links.extend(get_links(html))
+
+            for link in list_of_links:
+                html = get_html_(link)
+                writer_csv_exclude(get_info(html))
+
+            print(index + 1)
+
+
 
 
 # def main():
@@ -137,7 +168,7 @@ def main():
 
 
 if __name__ == "__main__":
-    freeze_support()
+    #freeze_support()
     start_time = datetime.now()
     main()
     end_time = datetime.now()
