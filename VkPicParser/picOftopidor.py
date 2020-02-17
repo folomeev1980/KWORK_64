@@ -68,7 +68,7 @@ def vk_post(format_, path_folder, min_shift, token_post, owner_id, captcha_sid_,
                 if number_of_posts!=150:
                     time_of_post = time_of_post + (min_shift * 60)
 
-                    time.sleep(random.randint(1, 3) * 60)
+                    time.sleep(random.randint(2, 5) * 60)
                     i = i + 1
                 else:
                     Logger("Access to adding post denied: cannot schedule more than 150 posts.")
@@ -96,7 +96,7 @@ def vk_post(format_, path_folder, min_shift, token_post, owner_id, captcha_sid_,
                     time_of_post = time_of_post + catcha25_timer
 
                     # print(datetime.datetime.fromtimestamp(time_of_post))
-                    time.sleep(random.randint(1, 3) * 60)
+                    time.sleep(random.randint(2, 5) * 60)
 
 
 

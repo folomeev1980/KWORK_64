@@ -48,6 +48,7 @@ def vk_post(
 ):
 
     time_zero = take_time(token_post, owner_id)
+    # print(time_zero)
 
     if time_zero == None:
         print("\nServer dont response")
@@ -59,6 +60,7 @@ def vk_post(
     else:
 
         print("\nStart posting objects {}".format(format_))
+        #print(len(list_files_folder(path_folder, format_)))
 
         time_of_post = time_zero + (min_shift * 60)
         i = 1
@@ -147,6 +149,19 @@ def vk_post(
                     with open(poster_result[1]) as existing_file:
                         # existing_file.close()
                         os.remove(existing_file)
+
+                elif (
+                    "Rate limit reached"
+                    in str(error)
+                ):
+
+                    Logger(error)
+                    time.sleep(43200)
+
+
+
+
+
 
                 else:
 

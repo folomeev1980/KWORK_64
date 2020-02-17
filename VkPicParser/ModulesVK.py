@@ -45,7 +45,7 @@ def video_choice(post):
 
 def get_comments(vk_api, owner_id, post_id):
     comments = vk_api.wall.getComments(
-        owner_id=owner_id * (-1), post_id=post_id, count=100, need_likes=1, v=5.101)
+        owner_id=owner_id * (-1), post_id=post_id, count=100, need_likes=1, v=5.103)
     comments_number = comments["count"] // 100
 
     comments = (comments["items"])
@@ -54,7 +54,7 @@ def get_comments(vk_api, owner_id, post_id):
 
     for i in range(1, comments_number + 1):
         comments = comments + vk_api.wall.getComments(
-            owner_id=owner_id * (-1), post_id=post_id, need_likes=1, count=100, v=5.101, offset=i * 100)["items"]
+            owner_id=owner_id * (-1), post_id=post_id, need_likes=1, count=100, v=5.103, offset=i * 100)["items"]
 
     for index, comment in enumerate(comments):
         if comment["likes"]["count"] > likes:
@@ -112,7 +112,7 @@ def take_time(token, owner_id):
         session = vk.AuthSession(access_token=token)
         vk_api = vk.API(session)
         posts = vk_api.wall.get(owner_id=owner_id * (-1),
-                                count=1000, filter="postponed", v=5.101)
+                                count=1000, filter="postponed", v=5.103)
         posts = posts["items"][-1]
 
         time_ = (posts["date"])
@@ -148,7 +148,7 @@ def get_posts_number(token, owner_id):
     session = vk.AuthSession(access_token=token)
     vk_api = vk.API(session)
     posts = vk_api.wall.get(owner_id=owner_id * (-1),
-                            count=1000, filter="postponed", v=5.101)
+                            count=1000, filter="postponed", v=5.103)
 
     return int((posts["count"]))
 
@@ -189,7 +189,7 @@ def get_group_posts(*args,format_="jpg"):
     date_end = datetime.datetime(date2[0], date2[1], date2[2], 23, 59)
 
     posts = vk_api.wall.get(owner_id=owner_id * (-1),
-                            count=100, filter=all, v=5.101)
+                            count=100, filter=all, v=5.103)
 
     count_numbers = posts["count"] // 100
 
@@ -201,7 +201,7 @@ def get_group_posts(*args,format_="jpg"):
         print("Reading {} block {}".format(i, owner_id))
 
         temp = vk_api.wall.get(owner_id=owner_id * (-1), count=100, filter=all,
-                               v=5.101, offset=i * 100)["items"]
+                               v=5.103, offset=i * 100)["items"]
 
         start_block = datetime.datetime.fromtimestamp(temp[0]["date"])
         end_block = datetime.datetime.fromtimestamp(temp[len(temp) - 1]["date"])
@@ -331,67 +331,45 @@ def poster(token, owner_id, path_folder, time_of_post, format_, captcha_sid_, ca
 
     message = take_name_from_excel("VK_list.xlsx", file_name)
     message = message.strip()
-    #print(message,file_name)
+
 
     pic_path = path_folder + file_name
 
     try:
 
         session = vk.AuthSession(access_token=token)
-
         vk_api = vk.API(session)
         result = vk_api.docs.getWallUploadServer(v=5.103)['upload_url']
-
-        #img = {'file': (pic_path, open(r'' + pic_path, 'rb'))}
-
+        img = {'file': (pic_path, open(r'' + pic_path, 'rb'))}
         upload_url = result
+
 
         with open(r'' + pic_path, 'rb') as f:
             img = {'file': (pic_path, f)}
-            print(upload_url,img)
 
-            # response = requests.post(upload_url, files=img)
-            # print(response.text)
 
 
             with requests.post(upload_url, files=img) as r:
             #
                 result = json.loads(r.text)
-                print(r.text)
-
-
-
-        # with open(r'' + pic_path, 'rb') as f:
-        #     f.close()
 
         # CAPTCHA
         #########################################################
         ## captcha_sid=788746128668,captcha_key="vaav",
         # result = vk_api.docs.save(file=result['file'], v=5.102)
-        result = vk_api.docs.save(file=result['file'], captcha_sid=captcha_sid_, captcha_key=captcha_key_, v=5.102)
+        result = vk_api.docs.save(file=result['file'], captcha_sid=captcha_sid_, captcha_key=captcha_key_, v=5.101)
         #########################################################
 
         attachments = ("doc" + str(result['doc']["owner_id"]) + "_" + str(result['doc']["id"]))
 
         upload = vk_api.wall.post(message=message, publish_date=time_of_post, owner_id=-1 * (owner_id), from_group=1,
-                                  attachments=attachments, v=5.102)
-        #time.sleep(30)
-
-        # with open(pic_path) as existing_file:
-        #     existing_file.close()
-        #     os.remove(pic_path)
-        #print("Finaly exceptin happened")
+                                  attachments=attachments, v=5.103)
 
         return (upload, pic_path, message)
-    except Exception as error:
 
+    except Exception as error:
+        print("Error in posrer function")
+        Logger(error)
         return (None, pic_path, error)
-    # finally:
-    #
-    #     time.sleep(30)
-    #
-    #     r.close()
-    #     with open(pic_path) as existing_file:
-    #         existing_file.close()
-    #     #     os.remove(pic_path)
-    #     #print("Finaly exceptin happened\n"+str(error))
+
+

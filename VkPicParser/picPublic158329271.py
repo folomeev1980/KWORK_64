@@ -9,16 +9,16 @@ from captcha_res import *
 
 
 def vk_parser(
-    format_,
-    direction,
-    group_id_list,
-    date_start,
-    date_end,
-    comments,
-    likes,
-    ads,
-    token,
-    list_of,
+        format_,
+        direction,
+        group_id_list,
+        date_start,
+        date_end,
+        comments,
+        likes,
+        ads,
+        token,
+        list_of,
 ):
     mdir(direction)
 
@@ -40,9 +40,8 @@ def vk_parser(
 
 
 def vk_post(
-    format_, path_folder, min_shift, token_post, owner_id, captcha_sid_, captcha_key_
+        format_, path_folder, min_shift, token_post, owner_id, captcha_sid_, captcha_key_
 ):
-
     time_zero = take_time(token_post, owner_id)
 
     if time_zero == None:
@@ -72,30 +71,39 @@ def vk_post(
             )
 
             if poster_result[0] != None:
-                number_of_posts = get_posts_number(token_post, owner_id)
-                print(
-                    "\n\npost uploaded {}, number of posts <<< {} >>>\n".format(
-                        i, number_of_posts
-                    ),
-                    poster_result[0:1],
-                    datetime.datetime.fromtimestamp(time_of_post),
-                )
+                print(poster_result)
+                try:
+                    number_of_posts = get_posts_number(token_post, owner_id)
 
-                with open(poster_result[1]) as existing_file:
-                    existing_file.close()
-                    os.remove(poster_result[1])
-                    print("{} removed\n".format(poster_result[1].split("\\")[1]))
-
-                if number_of_posts != 150:
-                    time_of_post = time_of_post + (min_shift * 60)
-
-                    time.sleep(random.randint(1, 3) * 60)
-                    i = i + 1
-                else:
-                    Logger(
-                        "Access to adding post denied: cannot schedule more than 150 posts."
+                    print(
+                        "\n\npost uploaded {}, number of posts <<< {} >>>\n".format(
+                            i, number_of_posts
+                        ),
+                        poster_result[0:1],
+                        datetime.datetime.fromtimestamp(time_of_post),
                     )
-                    time.sleep(43200)
+
+                    with open(poster_result[1]) as existing_file:
+                        existing_file.close()
+                        os.remove(poster_result[1])
+                        print("{} removed\n".format(poster_result[1].split("\\")[1]))
+
+                    if number_of_posts != 150:
+                        time_of_post = time_of_post + (min_shift * 60)
+
+                        time.sleep(random.randint(1, 3) * 60)
+                        i = i + 1
+                    else:
+                        Logger(
+                            "Access to adding post denied: cannot schedule more than 150 posts."
+                        )
+                        time.sleep(43200)
+                except Exception as e:
+                    if "29. Rate limit reached" in str(e):
+                        print("OOOO")
+                        Logger("29. Rate limit reached NEW")
+                        time.sleep(43200)
+
 
             else:
                 error = poster_result[2]
@@ -110,8 +118,8 @@ def vk_post(
                     captcha_key_ = captcha_solve(link_captcha)
 
                 elif (
-                    "214. Access to adding post denied: can only schedule 25 posts on a day"
-                    in str(error)
+                        "214. Access to adding post denied: can only schedule 25 posts on a day"
+                        in str(error)
                 ):
 
                     catcha25_timer = timer(
@@ -123,8 +131,8 @@ def vk_post(
                     time.sleep(random.randint(1, 3) * 60)
 
                 elif (
-                    "Access to adding post denied: cannot schedule more than 150 posts."
-                    in str(error)
+                        "Access to adding post denied: cannot schedule more than 150 posts."
+                        in str(error)
                 ):
 
                     Logger(error)
@@ -136,6 +144,13 @@ def vk_post(
                     with open(poster_result[1]) as existing_file:
                         # existing_file.close()
                         os.remove(existing_file)
+
+
+                elif ("29. Rate limit reached" in str(error)):
+
+                    Logger(error + "ok")
+                    time.sleep(43200)
+
 
                 else:
 
@@ -229,4 +244,3 @@ if __name__ == "__main__":
             captcha_sid_,
             captcha_key_,
         )
-
