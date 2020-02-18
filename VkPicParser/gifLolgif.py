@@ -203,54 +203,59 @@ if __name__ == "__main__":
         "Select '0' for PARSER,\nselect '1' for POST,\nselect '2' for Parser&Post:  \n"
     )
     Logger(d)
-    if a == "0":
 
-        vk_parser(
-            format_,
-            direction,
-            group_id_list,
-            date_start,
-            date_end,
-            comments,
-            likes,
-            ads,
-            token,
-            list_of,
-        )
-        input("\nParsing was done")
 
-    elif a == "1":
+    try:
+        if a == "0":
 
-        vk_post(
-            format_,
-            path_folder,
-            min_shift,
-            token_post,
-            owner_id,
-            captcha_sid_,
-            captcha_key_,
-        )
+            vk_parser(
+                format_,
+                direction,
+                group_id_list,
+                date_start,
+                date_end,
+                comments,
+                likes,
+                ads,
+                token,
+                list_of,
+            )
+            input("\nParsing was done")
 
-    else:
-        vk_parser(
-            format_,
-            direction,
-            group_id_list,
-            date_start,
-            date_end,
-            comments,
-            likes,
-            ads,
-            token,
-            list_of,
-        )
-        vk_post(
-            format_,
-            path_folder,
-            min_shift,
-            token_post,
-            owner_id,
-            captcha_sid_,
-            captcha_key_,
-        )
+        elif a == "1":
 
+            vk_post(
+                format_,
+                path_folder,
+                min_shift,
+                token_post,
+                owner_id,
+                captcha_sid_,
+                captcha_key_,
+            )
+
+        else:
+            vk_parser(
+                format_,
+                direction,
+                group_id_list,
+                date_start,
+                date_end,
+                comments,
+                likes,
+                ads,
+                token,
+                list_of,
+            )
+            vk_post(
+                format_,
+                path_folder,
+                min_shift,
+                token_post,
+                owner_id,
+                captcha_sid_,
+                captcha_key_,
+            )
+
+    except Exception as e:
+        Logger(str(e))
