@@ -2,6 +2,18 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from bs4 import BeautifulSoup
+from random import randint
+from time import sleep
+from progress.bar import Bar
+from openpyxl import Workbook, load_workbook
+
+def lst(l):
+    s = ""
+    for i in l:
+        s = s + i + "####"
+    return (s)
+
 
 
 def create_csv():
@@ -11,9 +23,9 @@ def create_csv():
                     "Код врача",
                     "День рождения врача"])
 
-    with open("doctors.csv", "w", newline='', encoding='utf-8') as f:
+    with open("dbs\\doctors.csv", "w", newline='', encoding='utf-8') as f:
         writer = csv.writer(f, delimiter=';')
-        writer.writerow(header)
+        #writer.writerow(header)
 
 
 def get_html_(url):
@@ -186,7 +198,7 @@ def get_info_for_each_page_(html):
 def writer_csv(data):
     for dic in data:
         for j in dic["doctors_list"]:
-            with open("doctors.csv", "a", newline='', encoding='utf-8') as f:
+            with open("dbs\\doctors.csv", "a", newline='', encoding='utf-8') as f:
                 writer = csv.writer(f, delimiter=';')
                 a = "{} {} {}".format(dic["famaly"], dic["name"], dic["fathername"])
                 b = "{}_{}_{}".format(j[0], j[1], j[2])
@@ -222,5 +234,52 @@ def cvs_doctors():
     print(i, "Pages\n", sum, "Doctors")
 
 
+def excel_doctors():
+    book_new = Workbook()
+    dic = {}
+    sheet_new = book_new.active
+    header = tuple(["ID_PI",
+                    "FIO",
+                    "Organization",
+                    "Email",
+                    "Phone",
+                    "VK",
+                    "Facebook",
+                    "Instagram",
+                    "Birthday",
+                    ])
+
+    sheet_new.append(header)
+
+    with open('dbs\\doctors.csv', newline='', encoding='utf-8') as csv_file_clinics:
+        csv_reader_clinics = csv.reader(csv_file_clinics, delimiter=';')
+        for i in csv_reader_clinics:
+            #print(lst(i[1:]))
+            dic[lst(i[1:])]=None
+            # try:
+            #     i=[i[3],i[1],i[2],"","","","","",i[4]]
+            #
+            #     sheet_new.append(i)
+            # except:
+            #     pass
+
+    for k in dic:
+        try:
+            i=k.split("####")[0:-1]
+
+            i = [i[2], i[0], i[1], "", "", "", "", "", i[3]]
+            print(i)
+            sheet_new.append(i)
+        except:
+            pass
+
+
+
+        # print(k.split("####")[0:])
+        #sheet_new.append()
+    book_new.save("final_xls_tables\\PI.xlsx")
+
+
 if __name__ == "__main__":
-    cvs_doctors()
+    excel_doctors()
+# cvs_doctors()

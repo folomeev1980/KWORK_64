@@ -369,7 +369,7 @@ def poster(token, owner_id, path_folder, time_of_post, format_, captcha_sid_, ca
 
     except Exception as error:
         print("Error in posrer function")
-        Logger(error)
+        Logger(str(error) +"    "+pic_path)
         return (None, pic_path, error)
 
 

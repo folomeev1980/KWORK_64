@@ -104,7 +104,6 @@ def excel_maker(lines):
     sheet_new.column_dimensions[get_column_letter(18)].width = 150
     sheet_new.column_dimensions[get_column_letter(19)].width = 30
     sheet_new.column_dimensions[get_column_letter(20)].width = 10
-
     sheet_new.column_dimensions[get_column_letter(21)].width = 10
     sheet_new.column_dimensions[get_column_letter(22)].width = 70
     sheet_new.column_dimensions[get_column_letter(23)].width = 90

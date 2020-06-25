@@ -3,7 +3,7 @@ list_=["Essence","DivinationCard","BaseType","Prophecy","HelmetEnchant","UniqueJ
 def make_url(lst):
     urls_lst=[]
     for i in lst:
-        a="https://poe.ninja/api/data/itemoverview?league=Metamorph&type="+i
+        a="https://poe.ninja/api/data/itemoverview?league=Delirium&type="+i
         urls_lst.append((i,a))
     return urls_lst
 

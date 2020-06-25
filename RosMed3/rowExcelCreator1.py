@@ -5,6 +5,19 @@ from openpyxl import Workbook, load_workbook
 from bs4 import BeautifulSoup
 from random import randint
 from time import sleep
+from progress.bar import Bar
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Font, Alignment
+from openpyxl.utils import get_column_letter
+from openpyxl.styles import Font
+import csv
+
+
+def lst(l):
+    s = ""
+    for i in l:
+        s = s + i + "####"
+    return (s)
 
 
 def create_csv():
@@ -28,9 +41,9 @@ def create_csv():
                     "Перечень медицинских организаций, в которых предполагается проведение клинических исследований",
                     "Колличество медицинских организаций"])
 
-    with open("clinics.csv", "w", newline='', encoding='utf-8') as f:
+    with open("dbs\\clinics.csv", "w", newline='', encoding='utf-8') as f:
         writer = csv.writer(f, delimiter=';')
-        writer.writerow(header)
+        # writer.writerow(header)
 
 
 def get_html(url):
@@ -79,7 +92,11 @@ def get_list_of_clinics(url):
 def get_info_for_each_page(html):
     list_dics = []
     soup = BeautifulSoup(html, "lxml")
-    list_of_page = (soup.find_all("tr", class_="hi_sys poi stat_reged"))
+    list_of_page2 = (soup.find_all("tr", class_="hi_sys poi"))
+    list_of_page1 = (soup.find_all("tr", class_="hi_sys poi stat_reged"))
+    list_of_page3 = (soup.find_all("tr", class_="hi_sys poi stat_frozen"))
+    list_of_page = list_of_page1 + list_of_page2 + list_of_page3
+    # list_of_page.sort()
 
     for st, page in enumerate(list_of_page):
 
@@ -271,7 +288,7 @@ def csv_row_clinic_creator(dic_list):
                     # for some in list_of_items:
                     #     temp.append(some.decode("utf-8", "ignore"))
 
-                    with open("clinics.csv", "a", newline='', encoding='utf-8') as f:
+                    with open("dbs\\clinics.csv", "a", newline='', encoding='utf-8') as f:
                         writer = csv.writer(f, delimiter=';')
                         # print(tuple(list_of_items))
                         writer.writerow(tuple(list_of_items))
@@ -291,9 +308,10 @@ def creator():
     k = 1
     lenght_tables = 10000
 
-    url_orig = "https://grls.rosminzdrav.ru/CiPermitionReg.aspx?PermYear=0&DateBeg=&DateEnd=&DateInc=&NumInc=&RegNm=&Statement=&Protocol=&Qualifier=&ProtoNum=&idCIStatementCh=&CiPhase=&RangeOfApp=&Torg=&LFDos=&Producer=&Recearcher=&sponsorCountry=&MedBaseCount=&CiType=&PatientCount=&OrgDocOut=2&Status=1&NotInReg=0&All=0&PageSize={}&order=date_perm&orderType=desc&pagenum=".format(
+    # url_orig = "https://grls.rosminzdrav.ru/CiPermitionReg.aspx?PermYear=0&DateInc=&NumInc=&DateBeg=&DateEnd=&Protocol=&RegNm=&Statement=&ProtoNum=&idCIStatementCh=&Qualifier=&CiPhase=&RangeOfApp=&Torg=&LFDos=&Producer=&Recearcher=&sponsorCountry=&MedBaseCount=&CiType=&PatientCount=&OrgDocOut=2&Status=1%2c2%2c3%2c4&NotInReg=0&All=0&PageSize={}&order=date_perm&orderType=desc&pagenum=".format(
+    #     lenght_tables)
+    url_orig = "https://grls.rosminzdrav.ru/CiPermitionReg.aspx?PermYear=0&DateInc=&NumInc=&DateBeg=&DateEnd=&Protocol=&RegNm=&Statement=&ProtoNum=&idCIStatementCh=&Qualifier=&CiPhase=&RangeOfApp=&Torg=&LFDos=&Producer=&Recearcher=&sponsorCountry=&MedBaseCount=&CiType=&PatientCount=&OrgDocOut=2&Status=1%2c2%2c3%2c4&NotInReg=0&All=0&PageSize={}&order=date_perm&orderType=desc&pagenum=".format(
         lenght_tables)
-
     try:
 
         while k <= 1:
@@ -312,3 +330,44 @@ def creator():
     # print(len(full_list_of_dic))
     csv_row_clinic_creator(full_list_of_dic)
     # excel_creator(full_list_of_dic, True)
+
+
+def excel_research_creator():
+    book_new = Workbook()
+    dic = {}
+    sheet_new = book_new.active
+    header = tuple(["ID_Research",
+                    "Number_RKI",
+                    "Creation_Date",
+                    "Name_Med_Prod",
+                    "Org_Con_Clin_trial",
+                    "Dev_Country",
+                    "Org_Dev_Med_Prod",
+                    "Start_Date",
+                    "Finish_Date",
+                    "N_prot",
+                    "Prot",
+                    "Phase_Clin_Trials",
+                    "Type_Clin_Trials",
+                    "Number_Med_Org",
+                    "Number_of_Patients",
+                    "Application",
+                    "State",
+                    ])
+
+    sheet_new.append(header)
+
+    with open('dbs\\clinics.csv', newline='', encoding='utf-8') as csv_file_clinics:
+        csv_reader_clinics = csv.reader(csv_file_clinics, delimiter=';')
+        for i in csv_reader_clinics:
+            i = i[0: -2]
+            dic[lst(i)] = None
+
+    for k in dic:
+        # print(k.split("####")[0:])
+        sheet_new.append(k.split("####")[0:-1])
+    book_new.save("final_xls_tables\\Research.xlsx")
+
+
+if __name__ == "__main__":
+    excel_research_creator()
