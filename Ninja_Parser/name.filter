@@ -1,0 +1,2823 @@
+This is up
+
+Show
+  Class "Divination Card"
+  BaseType "House of Mirrors"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Demon"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Doctor"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Fiend"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Cheater"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Immortal"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Succor of the Sinless"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Alluring Bounty"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Iron Bard"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Beauty Through Death"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Nurse"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Seven Years Bad Luck"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Samurai's Eye"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Nook's Crown"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "Abandoned Wealth"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  Class "Divination Card"
+  BaseType "The Damned"
+  SetTextColor 0 255 0
+  SetBorderColor 0 255 0
+  PlayAlertSound 7 270
+  SetFontSize 50
+  PlayEffect Green
+  MinimapIcon 1 Green Circle
+Show
+  ItemLevel >= 84
+  BaseType "Stygian Vise"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Stygian Vise"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Ornate Quiver"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Crystal Belt"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Stygian Vise"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Stygian Vise"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Titanium Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Crystal Belt"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Stygian Vise"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Bone Helmet"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Steel Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Crystal Belt"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Stygian Vise"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Stygian Vise"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Spiked Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Two-Toned Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Stygian Vise"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Ornate Quiver"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Steel Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Crystal Belt"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Stygian Vise"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Crystal Belt"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Stygian Vise"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Bone Helmet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Stygian Vise"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Titanium Spirit Shield"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Stygian Vise"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Spiked Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Sorcerer Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Two-Toned Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Steel Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Steel Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Two-Toned Boots"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Steel Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Crystal Belt"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Stygian Vise"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Stygian Vise"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Spiked Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Stygian Vise"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Stygian Vise"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Sorcerer Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Stygian Vise"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Stygian Vise"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Steel Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Steel Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Spiked Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Stygian Vise"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Crystal Belt"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Titanium Spirit Shield"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Cerulean Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Cerulean Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Stygian Vise"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Vermillion Ring"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Stygian Vise"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Stygian Vise"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Gripped Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Vermillion Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Titanium Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Crystal Belt"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Steel Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Gripped Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Fingerless Silk Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Spiked Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Spiked Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Vermillion Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Astral Plate"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Marble Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Fingerless Silk Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Steel Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Cerulean Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Ornate Quiver"
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Two-Toned Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Gripped Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Steel Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Vermillion Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Titanium Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Spiked Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vermillion Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Marble Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Fingerless Silk Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Titanium Spirit Shield"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Astral Plate"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Sceptre"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Cerulean Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Spiked Gloves"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Vermillion Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Stygian Vise"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Spiked Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Fingerless Silk Gloves"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Fingerless Silk Gloves"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Two-Toned Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Spiked Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Astral Plate"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Gripped Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Fingerless Silk Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vermillion Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Two-Toned Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Vermillion Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Marble Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Astral Plate"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Spiked Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Astral Plate"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Fingerless Silk Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Marble Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Fingerless Silk Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Steel Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Hubris Circlet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Two-Toned Boots"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Fingerless Silk Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Steel Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Gripped Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Two-Toned Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Steel Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Agate Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Ezomyte Tower Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Opal Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Reflex Bow"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Fingerless Silk Gloves"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Gripped Gloves"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Fingerless Silk Gloves"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Cerulean Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vermillion Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Vermillion Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Two-Toned Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Two-Toned Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Two-Toned Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Barbed Club"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Vermillion Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Gripped Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Astral Plate"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Sorcerer Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Two-Toned Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Gripped Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Cerulean Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Sceptre"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Hubris Circlet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Fingerless Silk Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Sorcerer Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Vermillion Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Titanium Spirit Shield"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Agate Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Gripped Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Cerulean Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Marble Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Opal Sceptre"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Fingerless Silk Gloves"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Citrine Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Vermillion Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Marble Amulet"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Arcanist Slippers"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Sorcerer Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Sorcerer Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Astral Plate"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Titanium Spirit Shield"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Opal Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vermillion Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Fingerless Silk Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Colossal Tower Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Sorcerer Boots"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vaal Regalia"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Spiked Gloves"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Marble Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Wand"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Agate Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Unset Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Steel Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Vermillion Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Agate Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Opal Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Two-Toned Boots"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Citrine Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Sorcerer Boots"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vermillion Ring"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Crystal Belt"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Ezomyte Tower Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Citrine Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Wand"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Marble Amulet"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Titanium Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Onyx Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Gripped Gloves"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Harmonic Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Titan Greaves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Marble Amulet"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Marble Amulet"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Bone Helmet"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Sceptre"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Fingerless Silk Gloves"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Steel Gauntlets"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Vermillion Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Titanium Spirit Shield"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Gripped Gloves"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Prismatic Jewel"
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Unset Ring"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Titanium Spirit Shield"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Vermillion Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Sorcerer Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Hubris Circlet"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Sorcerer Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Imbued Wand"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Vermillion Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Hubris Circlet"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Ezomyte Tower Shield"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Vermillion Ring"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Marble Amulet"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Colossal Tower Shield"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Marble Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Sceptre"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Crystal Belt"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Citrine Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Titanium Spirit Shield"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Unset Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Titanium Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Unset Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Crystal Belt"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Titanium Spirit Shield"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Vermillion Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Reflex Bow"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Unset Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Gripped Gloves"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Onyx Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Wand"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Fingerless Silk Gloves"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Amber Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Lapis Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Wand"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Unset Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Sorcerer Boots"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Vermillion Ring"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Marble Amulet"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Gripped Gloves"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Ornate Mace"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Spiked Gloves"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Jewelled Foil"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Crystal Belt"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Spiraled Wand"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Marble Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Royal Burgonet"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Fingerless Silk Gloves"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Opal Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Titanium Spirit Shield"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 82
+  BaseType "Crystal Belt"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Crystal Belt"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Cerulean Ring"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Turquoise Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Lion Pelt"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Amber Amulet"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Sorcerer Boots"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Spine Bow"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Bone Helmet"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Opal Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Opal Ring"
+  ElderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Tarnished Spirit Shield"
+  ShaperItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Citrine Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Opal Ring"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 84
+  BaseType "Hubris Circlet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Marble Amulet"
+  WarlordItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Crystal Belt"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 83
+  BaseType "Vermillion Ring"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 85
+  BaseType "Ezomyte Tower Shield"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Onyx Amulet"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Assassin's Garb"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Assassin's Garb"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Wand"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Opal Ring"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Vermillion Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Moonstone Ring"
+  CrusaderItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Spiked Gloves"
+  RedeemerItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+  ItemLevel >= 86
+  BaseType "Scholar Boots"
+  HunterItem True
+  SetTextColor 0 0 0
+  SetBackgroundColor 181 164 74 170
+  SetBorderColor 0 0 0
+  SetFontSize 25
+Show
+BaseType "Trash to Treasure"
+Show
+BaseType "The Queen's Sacrifice"
+Show
+BaseType "Fated Connections"
+Show
+BaseType "A Prodigious Hand"
+Show
+BaseType "40% increased Ice Nova Damage"
+Show
+BaseType "30% increased Temporal Chains Curse Effect"
+Show
+BaseType "15% increased Cyclone Attack Speed"
+Show
+BaseType "Prismatic Jewel"
+Show
+BaseType "Viridian Jewel"
+Show
+BaseType "Cobalt Jewel"
+Show
+BaseType "Crimson Jewel"
+Show
+BaseType "Viridian Jewel"
+Show
+BaseType "Crimson Jewel"
+Show
+BaseType "Cobalt Jewel"
+Show
+BaseType "Viridian Jewel"
+Show
+BaseType "Crimson Jewel"
+Show
+BaseType "Crimson Jewel"
+Show
+BaseType "Prismatic Jewel"
+Show
+BaseType "Viridian Jewel"
+Show
+BaseType "Large Cluster Jewel"
+Show
+BaseType "Cobalt Jewel"
+Show
+BaseType "Viridian Jewel"
+Show
+BaseType "Crimson Jewel"
+Show
+BaseType "Sulphur Flask"
+Show
+BaseType "Quartz Flask"
+Show
+BaseType "Silver Flask"
+Show
+BaseType "Legion Sword"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Maelström Staff"
+Show
+BaseType "Charan's Sword"
+Show
+BaseType "Judgement Staff"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Despot Axe"
+Show
+BaseType "Vaal Axe"
+Show
+BaseType "Imperial Maul"
+Show
+BaseType "Highborn Staff"
+Show
+BaseType "Imperial Staff"
+Show
+BaseType "Steelwood Bow"
+Show
+BaseType "Spine Bow"
+Show
+BaseType "Ezomyte Staff"
+Show
+BaseType "Maelström Staff"
+Show
+BaseType "Jasper Chopper"
+Show
+BaseType "Ranger Bow"
+Show
+BaseType "Vaal Axe"
+Show
+BaseType "Citadel Bow"
+Show
+BaseType "Imperial Bow"
+Show
+BaseType "Judgement Staff"
+Show
+BaseType "Harbinger Bow"
+Show
+BaseType "Void Axe"
+Show
+BaseType "Steelhead"
+Show
+BaseType "Karui Maul"
+Show
+BaseType "Void Sceptre"
+Show
+BaseType "Meatgrinder"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Death Bow"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Military Staff"
+Show
+BaseType "Ornate Sword"
+Show
+BaseType "Serpentine Staff"
+Show
+BaseType "Crude Bow"
+Show
+BaseType "Vaal Rapier"
+Show
+BaseType "Reaver Sword"
+Show
+BaseType "Spine Bow"
+Show
+BaseType "Gemstone Sword"
+Show
+BaseType "Royal Staff"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Despot Axe"
+Show
+BaseType "Lion Sword"
+Show
+BaseType "Maelström Staff"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Ezomyte Staff"
+Show
+BaseType "Despot Axe"
+Show
+BaseType "Iron Staff"
+Show
+BaseType "Great Mallet"
+Show
+BaseType "Woodsplitter"
+Show
+BaseType "Crude Bow"
+Show
+BaseType "Assassin Bow"
+Show
+BaseType "Etched Greatsword"
+Show
+BaseType "Lathi"
+Show
+BaseType "Long Bow"
+Show
+BaseType "Maelström Staff"
+Show
+BaseType "Abyssal Axe"
+Show
+BaseType "Infernal Sword"
+Show
+BaseType "Sorcerer Boots"
+Show
+BaseType "Golden Buckler"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Slink Boots"
+Show
+BaseType "Triumphant Lamellar"
+Show
+BaseType "Titan Greaves"
+Show
+BaseType "Vaal Gauntlets"
+Show
+BaseType "Ornate Quiver"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Gladiator Plate"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Saint's Hauberk"
+Show
+BaseType "Saint's Hauberk"
+Show
+BaseType "Triumphant Lamellar"
+Show
+BaseType "Triumphant Lamellar"
+Show
+BaseType "Occultist's Vestment"
+Show
+BaseType "Lacquered Garb"
+Show
+BaseType "Sadist Garb"
+Show
+BaseType "Golden Plate"
+Show
+BaseType "Widowsilk Robe"
+Show
+BaseType "Varnished Coat"
+Show
+BaseType "Zodiac Leather"
+Show
+BaseType "Exquisite Leather"
+Show
+BaseType "Deerskin Gloves"
+Show
+BaseType "Zodiac Leather"
+Show
+BaseType "Exquisite Leather"
+Show
+BaseType "Savant's Robe"
+Show
+BaseType "Crusader Boots"
+Show
+BaseType "Holy Chainmail"
+Show
+BaseType "Sacrificial Garb"
+Show
+BaseType "Elegant Ringmail"
+Show
+BaseType "Loricated Ringmail"
+Show
+BaseType "Vaal Regalia"
+Show
+BaseType "Sacrificial Garb"
+Show
+BaseType "Savant's Robe"
+Show
+BaseType "Elegant Ringmail"
+Show
+BaseType "Sacrificial Garb"
+Show
+BaseType "Full Wyrmscale"
+Show
+BaseType "Full Dragonscale"
+Show
+BaseType "Exquisite Leather"
+Show
+BaseType "Sorcerer Boots"
+Show
+BaseType "Exquisite Leather"
+Show
+BaseType "Savant's Robe"
+Show
+BaseType "Savant's Robe"
+Show
+BaseType "Magistrate Crown"
+Show
+BaseType "Sacrificial Garb"
+Show
+BaseType "Silk Gloves"
+Show
+BaseType "Saintly Chainmail"
+Show
+BaseType "Crusader Plate"
+Show
+BaseType "Wyrmscale Doublet"
+Show
+BaseType "Carnal Boots"
+Show
+BaseType "Vaal Spirit Shield"
+Show
+BaseType "Saint's Hauberk"
+Show
+BaseType "Glorious Plate"
+Show
+BaseType "Ambush Mitts"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Destiny Leather"
+Show
+BaseType "Sharkskin Tunic"
+Show
+BaseType "Sacrificial Garb"
+Show
+BaseType "Strapped Leather"
+Show
+BaseType "Ezomyte Tower Shield"
+Show
+BaseType "Rawhide Boots"
+Show
+BaseType "Steelscale Gauntlets"
+Show
+BaseType "Crusader Plate"
+Show
+BaseType "Magistrate Crown"
+Show
+BaseType "Reinforced Greaves"
+Show
+BaseType "Lacquered Garb"
+Show
+BaseType "Blood Raiment"
+Show
+BaseType "Saint's Hauberk"
+Show
+BaseType "Ezomyte Tower Shield"
+Show
+BaseType "Wyrmscale Doublet"
+Show
+BaseType "Murder Mitts"
+Show
+BaseType "Occultist's Vestment"
+Show
+BaseType "Spidersilk Robe"
+Show
+BaseType "Murder Boots"
+Show
+BaseType "Penetrating Arrow Quiver"
+Show
+BaseType "Stealth Boots"
+Show
+BaseType "Triumphant Lamellar"
+Show
+BaseType "Necromancer Silks"
+Show
+BaseType "Widowsilk Robe"
+Show
+BaseType "Wild Leather"
+Show
+BaseType "Leather Belt"
+Show
+BaseType "Topaz Ring"
+Show
+BaseType "Two-Stone Ring"
+Show
+BaseType "Turquoise Amulet"
+Show
+BaseType "Topaz Ring"
+Show
+BaseType "Studded Belt"
+Show
+BaseType "Sapphire Ring"
+Show
+BaseType "Topaz Ring"
+Show
+BaseType "Chain Belt"
+Show
+BaseType "Paua Amulet"
+Show
+BaseType "Prismatic Ring"
+Show
+BaseType "Sapphire Ring"
+Show
+BaseType "Prismatic Ring"
+Show
+BaseType "Ruby Ring"
+Show
+BaseType "Jade Amulet"
+Show
+BaseType "Onyx Amulet"
+Show
+BaseType "Two-Stone Ring"
+Show
+BaseType "Two-Stone Ring"
+Show
+BaseType "Topaz Ring"
+Show
+BaseType "Ruby Ring"
+
+This is down
