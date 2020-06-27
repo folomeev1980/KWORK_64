@@ -94,54 +94,77 @@ def create_csv():
 
 
 def csv_combinators():
+    doc=[]
+    clin=[]
+    res=[]
+
     if check():
 
         create_csv()
 
         with open('dbs\\clinics.csv', newline='', encoding='utf-8') as csv_file_clinics:
             csv_reader_clinics = csv.reader(csv_file_clinics, delimiter=';')
-            for index, line_from_clinic in enumerate(csv_reader_clinics):
-                temp=[index,"","",line_from_clinic[0]]
-                combo_line = line_from_clinic[0:-1] + ["", "", "", ""]
-                #print(len(combo_line))
-                #print("{}_{}_{}".format(line_from_clinic[7], line_from_clinic[8],line_from_clinic[1]))
+            for line_from_doctor in csv_reader_clinics:
+                res.append(line_from_doctor)
 
-                with open("dbs\\doctors.csv", newline='', encoding='utf-8') as csv_file_doctors:
-                    csv_reader_doctors = csv.reader(csv_file_doctors, delimiter=';')
-                    for line_from_doctor in csv_reader_doctors:
-                        if line_from_doctor[0] == "{}_{}_{}".format(line_from_clinic[7], line_from_clinic[8],
-                                                                    line_from_clinic[1]) and blanker(
-                            line_from_doctor[2]) in blanker(line_from_clinic[17]):
-                            combo_line = line_from_clinic[0:-1]
-                            combo_line.append(line_from_doctor[1])
-                            combo_line.append(line_from_doctor[3])
-                            combo_line.append(line_from_doctor[4])
-                            temp[2] = line_from_doctor[3]
-                            break
+        with open("dbs\\doctors.csv", newline='', encoding='utf-8') as csv_file_doctors:
+            csv_reader_doctors = csv.reader(csv_file_doctors, delimiter=';')
+            for line_from_doctor in csv_reader_doctors:
+                doc.append(line_from_doctor)
+        with open("dbs\\medOrg.csv", newline='', encoding='utf-8') as csv_file_org:
+            csv_reader_org = csv.reader(csv_file_org, delimiter=';')
+            for line_from_org in csv_reader_org:
+                clin.append(line_from_org)
+
+        csv_reader_doctors=doc
+        csv_reader_org=clin
+        csv_reader_clinics=res
 
 
+        # with open('dbs\\clinics.csv', newline='', encoding='utf-8') as csv_file_clinics:
+        #     csv_reader_clinics = csv.reader(csv_file_clinics, delimiter=';')
+        for index, line_from_clinic in enumerate(csv_reader_clinics):
+            temp=[index,"","",line_from_clinic[0]]
+            combo_line = line_from_clinic[0:-1] + ["", "", "", ""]
+            #print(len(combo_line))
+            #print("{}_{}_{}".format(line_from_clinic[7], line_from_clinic[8],line_from_clinic[1]))
 
-                with open("dbs\\medOrg.csv", newline='', encoding='utf-8') as csv_file_org:
-                    csv_reader_org = csv.reader(csv_file_org, delimiter=';')
-                    for line_from_org in csv_reader_org:
-                        if blanker(line_from_org[1]) in blanker(line_from_clinic[17]):
-                            # combo_line = line_from_clinic[0:-1]
-                            # combo_line.append(line_from_doctor[1])
-                            # combo_line.append(line_from_doctor[3])
-                            combo_line.append(line_from_org[0])
-                            temp[1]=line_from_org[0]
-                            break
-                print(temp)
-                with open("dbs\\medlist_combination.csv", "a", newline='', encoding='ansi',
-                          errors="ignore") as csv_file_medlist:
-                    csv_writer_medlist = csv.writer(csv_file_medlist, delimiter=';')
-
-                   # csv_writer_medlist.writerow(tuple(combo_line))
-                   #a=[index, str(combo_line[-1]),str(combo_line[-3]),str(combo_line[0])]
-                    csv_writer_medlist.writerow(tuple(temp))
+            # with open("dbs\\doctors.csv", newline='', encoding='utf-8') as csv_file_doctors:
+            #     csv_reader_doctors = csv.reader(csv_file_doctors, delimiter=';')
+            for line_from_doctor in csv_reader_doctors:
+                if line_from_doctor[0] == "{}_{}_{}".format(line_from_clinic[7], line_from_clinic[8],
+                                                            line_from_clinic[1]) and blanker(
+                    line_from_doctor[2]) in blanker(line_from_clinic[17]):
+                    combo_line = line_from_clinic[0:-1]
+                    combo_line.append(line_from_doctor[1])
+                    combo_line.append(line_from_doctor[3])
+                    combo_line.append(line_from_doctor[4])
+                    temp[2] = line_from_doctor[3]
+                    break
 
 
-                   # print(index, combo_line[-1]+"  "+combo_line[-3]+"  "+combo_line[0])
+
+            # with open("dbs\\medOrg.csv", newline='', encoding='utf-8') as csv_file_org:
+            #     csv_reader_org = csv.reader(csv_file_org, delimiter=';')
+            for line_from_org in csv_reader_org:
+                if blanker(line_from_org[1]) in blanker(line_from_clinic[17]):
+                    # combo_line = line_from_clinic[0:-1]
+                    # combo_line.append(line_from_doctor[1])
+                    # combo_line.append(line_from_doctor[3])
+                    combo_line.append(line_from_org[0])
+                    temp[1]=line_from_org[0]
+                    break
+            print(temp)
+            with open("dbs\\medlist_combination.csv", "a", newline='', encoding='ansi',
+                      errors="ignore") as csv_file_medlist:
+                csv_writer_medlist = csv.writer(csv_file_medlist, delimiter=';')
+
+               # csv_writer_medlist.writerow(tuple(combo_line))
+               #a=[index, str(combo_line[-1]),str(combo_line[-3]),str(combo_line[0])]
+                csv_writer_medlist.writerow(tuple(temp))
+
+
+               # print(index, combo_line[-1]+"  "+combo_line[-3]+"  "+combo_line[0])
 
 
 

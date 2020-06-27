@@ -268,7 +268,7 @@ def excel_doctors():
             i=k.split("####")[0:-1]
 
             i = [i[2], i[0], i[1], "", "", "", "", "", i[3]]
-            print(i)
+            #print(i)
             sheet_new.append(i)
         except:
             pass

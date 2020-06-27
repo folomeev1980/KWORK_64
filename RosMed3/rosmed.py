@@ -2,7 +2,7 @@ import datetime
 from doctorsCvs2 import cvs_doctors, excel_doctors
 from rowExcelCreator1 import creator, excel_research_creator
 # from creterialSearch3 import criteria_maker
-from Combinators import csv_combinators
+from Combinators import csv_combinators,excel_combo
 # from excelCreator5 import excel
 from medClinic3 import csv_medclinic, excel_medic
 
@@ -28,11 +28,19 @@ def main():
 
     elif i == "4":
         csv_combinators()
+        excel_combo()
 
 
     else:
 
-        pass
+        creator()
+        excel_research_creator()
+        cvs_doctors()
+        excel_doctors()
+        csv_medclinic()
+        excel_medic()
+        csv_combinators()
+        excel_combo()
 
 
 if __name__ == "__main__":
