@@ -110,7 +110,7 @@ def get_page_data_1(html, ws):
 def main():
     wb = Workbook()
     ws = wb.active
-    for i in range(1, 26, 1):
+    for i in range(1, 5, 1):
         flag = True
         url = "https://www.kinokopilka.pro/movies?page={}&period=today&sort=released_on".format(str(i))
         while flag == True:
@@ -124,7 +124,7 @@ def main():
                 flag = True
 
         print("Page " + str(i) + " parsed")
-    wb.save('kino_.xlsx')
+    wb.save('kino1_.xlsx')
 
 
 if __name__ == "__main__":
